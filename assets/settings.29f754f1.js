@@ -1,0 +1,1 @@
+var l=Object.defineProperty;var a=(n,e,t)=>e in n?l(n,e,{enumerable:!0,configurable:!0,writable:!0,value:t}):n[e]=t;var s=(n,e,t)=>(a(n,typeof e!="symbol"?e+"":e,t),t);class o{constructor(e="Default",t="Default",c=""){s(this,"consoleTheme");s(this,"landingTheme","Default");s(this,"currency");this.consoleTheme=e,this.landingTheme=t,this.currency=c}}export{o as S};
